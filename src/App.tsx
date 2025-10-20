@@ -9,7 +9,7 @@ import {
   CompleteWorkflowData 
 } from './types';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://whop-sales-spreadsheet-backend.onrender.com';
 
 type TabType = 'workflow' | 'reports' | 'tracking';
 
