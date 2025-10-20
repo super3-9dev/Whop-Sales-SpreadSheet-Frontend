@@ -175,18 +175,6 @@ function App(): JSX.Element {
         >
           🛠️ Workflow
         </button>
-        <button 
-          className={`tab ${activeTab === 'reports' ? 'active' : ''}`}
-          onClick={() => setActiveTab('reports')}
-        >
-          📊 Reports
-        </button>
-        <button 
-          className={`tab ${activeTab === 'tracking' ? 'active' : ''}`}
-          onClick={() => setActiveTab('tracking')}
-        >
-          🔍 Tracking
-        </button>
       </nav>
 
       <main className="main-content">
